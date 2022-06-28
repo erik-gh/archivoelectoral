@@ -13,7 +13,7 @@ class CreateOdpeSolucionsTable extends Migration
      */
     public function up()
     {
-        Schema::create('odpe_solucions', function (Blueprint $table) {
+        Schema::create('odpe_soluciones', function (Blueprint $table) {
             $table->id();
             $table->foreignId('id_odpe')
                 ->nullable()
@@ -36,6 +36,6 @@ class CreateOdpeSolucionsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('odpe_solucions');
+        Schema::dropIfExists('odpe_soluciones');
     }
 }
