@@ -14,6 +14,7 @@ class ConsultaSeeder extends Seeder
      */
     public function run()
     {
+//        DB::table('consultas')->truncate();
         $datos = [
             [
                 'consulta' => 'RPD',

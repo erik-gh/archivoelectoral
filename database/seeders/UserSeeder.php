@@ -14,11 +14,12 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
+//        DB::table('users')->truncate();
         $datos = [
-            'name' => 'EI2022',
-            'email' => 'ELECCIONES INTERNAS 2022',
+            'name' => 'Erik Tecse',
+            'email' => 'eriktecse@gmail.com',
             'password' => bcrypt('qwerty123')
         ];
-        DB::table('procesos')->insert($datos);
+        DB::table('users')->insert($datos);
     }
 }

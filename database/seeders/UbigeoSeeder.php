@@ -14,6 +14,7 @@ class UbigeoSeeder extends Seeder
      */
     public function run()
     {
+//        DB::table('ubigeos')->truncate();
         $datos = [
             [
                 'cod_ubigeo' => '010101',

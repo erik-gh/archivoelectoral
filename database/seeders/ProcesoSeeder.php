@@ -14,6 +14,7 @@ class ProcesoSeeder extends Seeder
      */
     public function run()
     {
+//        DB::table('procesos')->truncate();
         $datos = [
             'proceso' => 'EI2022',
             'descripcion' => 'ELECCIONES INTERNAS 2022',

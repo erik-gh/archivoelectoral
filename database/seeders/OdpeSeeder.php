@@ -14,6 +14,7 @@ class OdpeSeeder extends Seeder
      */
     public function run()
     {
+//        DB::table('odpes')->truncate();
         $datos = [
             [
                 'nombre_odpe' => 'ORC CHACHAPOYAS',
