@@ -7,7 +7,19 @@
 @stop
 
 @section('content')
-    <p>Welcome to this beautiful admin panel.</p>
+{{--    <p>Welcome to this beautiful admin panel.</p>--}}
+    <div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header"></div>
+                <div class="card-body">
+                    <livewire:proceso-odpe/>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 @stop
 
 @section('css')
